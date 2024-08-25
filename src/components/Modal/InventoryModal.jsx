@@ -4,7 +4,7 @@ import characters from '../../data/characters.json';
 import starImage3 from '../../assets/3-star.png';
 import starImage4 from '../../assets/4-star.png';
 import starImage5 from '../../assets/5-star.png';
-
+import starImage10 from '../../assets/10-star.png';
 
 const InvOverlay = styled.div`
   position: fixed;
@@ -166,11 +166,12 @@ const PlaceholderText = styled.span`
 const starImages = {
   3: starImage3,
   4: starImage4,
-  5: starImage5
+  5: starImage5,
+  10: starImage10
 };
 
 const renderStars = (rarity) => {
-  const starCount = Math.min(Math.max(rarity, 3), 5); // Ensure rarity is between 3 and 5
+  const starCount = Math.min(Math.max(rarity, 3), 10); // Ensure rarity is between 3 and 5
   const starImage = starImages[starCount];
   return (
     <StarContainer>

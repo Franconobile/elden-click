@@ -19,7 +19,7 @@ const glow = keyframes`
 // Estilos para el header see
 const Header = styled.header`
   display: flex;
-  justify-content: flex-start;
+  justify-content: space-between;
   background-color: #0e0d0d;
   color: #947f6e;
   padding: 10px;
@@ -29,7 +29,7 @@ const Header = styled.header`
 const HeaderSection = styled.div`
   display: flex;
   align-items: center;
-  flex: 1;
+
 
 &.header-center {
     position: relative; 
@@ -42,21 +42,20 @@ const HeaderSection = styled.div`
       z-index: 1; 
       
     }
+`;
 
-    &::before {
-      content: '';
-      position: absolute;
-      top: 50%;
-      left: 4%;
-      width: 9%; // Asegura que el brillo cubra el ícono
-      height: 100%;
-      background: radial-gradient(circle, rgba(255, 255, 0, 0.5) 5%, rgba(255, 255, 0, 0) 50%);
-      transform: translate(-50%, -50%);
-      opacity: 0;
-      animation: ${glow} 5s ease-in-out infinite;
-      z-index: 0;
-    }
-  }
+const InfoButton = styled.button`
+  padding: 7px;
+  width: 30px;
+  background-color: #68420F;
+  border: none;
+  border-radius: 50%;
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+        &:hover {
+    background-color: #A56B1B;
+
 `;
 
 
@@ -66,13 +65,16 @@ const Counter = styled.h3`
 `;
 
 
-const Navbar = ({clickCount }) => {
+const Navbar = ({clickCount, onInfoClick }) => {
     return (
       <Header>
         <HeaderSection className="header-left">ELDEN CLICK</HeaderSection>
         <HeaderSection className="header-center">
           <img src={runeIcon} alt="Runitas" />
           <Counter id="contador">{clickCount}</Counter>
+        </HeaderSection>
+        <HeaderSection className="header-right">
+          <InfoButton onClick={onInfoClick}>?</InfoButton>
         </HeaderSection>
       </Header>
       );

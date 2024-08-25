@@ -1,6 +1,9 @@
 import React from 'react';
 import styled from 'styled-components';
 import RuneBtn from './RuneBtn';
+import InventoryIco from '../../assets/inventory.webp';
+import ShopIco from '../../assets/shop.webp';
+import OptionsIco from '../../assets/options.webp';
 
 
 const Footer = styled.footer`
@@ -19,11 +22,14 @@ const InventorySection = styled.div`
 `;
 
 const Button = styled.button`
-  padding: 10px 20px;
-  border: solid 1px rgb(143, 143, 143);
+
   background-color: #0e0e0e;
   color: #d8d8d8;
   cursor: pointer;
+  img {
+    max-width: 50px;
+  }
+
     &:hover {
       background-color: #7F5915;
     
@@ -74,9 +80,9 @@ const FooterComponent = ({onClick, onOptionsClick, onShopClick, onInvClick, onWi
   return (
     <Footer>
       <InventorySection>
-        <Button onClick={onInvClick}>Inventory</Button>
-        <Button onClick={onShopClick}>Shop</Button>
-        <Button onClick={onOptionsClick}>Options</Button>
+        <Button onClick={onInvClick}><img src={InventoryIco} alt="" srcset="" /></Button>
+        <Button onClick={onShopClick}><img src={ShopIco} alt="" srcset="" /></Button>
+        <Button onClick={onOptionsClick}><img src={OptionsIco} alt="" srcset="" /></Button>
       </InventorySection>
       <Clicker>
         <RuneBtn

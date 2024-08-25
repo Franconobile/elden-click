@@ -5,6 +5,8 @@ import starSound from '../../assets/sfx/starsound.ogg';
 import starImage3 from '../../assets/3-star.png';
 import starImage4 from '../../assets/4-star.png';
 import starImage5 from '../../assets/5-star.png';
+import starImage10 from '../../assets/10-star.png';
+
 
 
 
@@ -139,6 +141,9 @@ const Details = ({onClose, character}) => {
       case 5:
         starImage = starImage5;
         break;
+      case 10:
+          starImage = starImage10;
+          break;
       default:
         starImage = starImage3; // fallback to 3-star image if rarity is unexpected
     }
