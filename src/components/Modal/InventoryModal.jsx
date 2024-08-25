@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import styled from 'styled-components';
-import characters from '../../data/characters.json';
 import starImage3 from '../../assets/3-star.png';
 import starImage4 from '../../assets/4-star.png';
 import starImage5 from '../../assets/5-star.png';
