@@ -2,20 +2,6 @@ import React from 'react';
 import styled, { keyframes }  from 'styled-components';
 import runeIcon from '../../assets/runes-icon.webp';
 
-
-// Animación de brillo
-const glow = keyframes`
-  0% {
-    opacity: 0;
-  }
-  50% {
-    opacity: 0.5;
-  }
-  100% {
-    opacity: 0;
-  }
-`;
-
 // Estilos para el header see
 const Header = styled.header`
   display: flex;
