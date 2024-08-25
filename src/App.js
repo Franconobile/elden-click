@@ -81,7 +81,7 @@ function App() {
   }, [clickCount]);
 
   const handleClick = () => {
-    setClickCount(clickCount + 100);
+    setClickCount(clickCount + 1);
   };
 
   // Guardar workers en el localstorage

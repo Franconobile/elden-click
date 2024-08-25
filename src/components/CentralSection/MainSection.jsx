@@ -14,7 +14,7 @@ const Main = styled.main`
   justify-content: space-between;
 
     @media (max-width: 768px) {
-    flex-direction: column; /* Cambiar a columnas en pantallas pequeñas */
+    flex-direction: column; 
     padding: 10px;
   }
 `;
@@ -27,12 +27,17 @@ const DisplayArea = styled.section`
   position: relative;
   color: #fff;
   margin: 0px;
+  width: 100%; /* Asegura que el área de visualización ocupe todo el ancho disponible */
+  height: 100%;
+  
 
     @media (max-width: 768px) {
     margin-right: 0;
     margin-bottom: 20px;
     padding: 10px;
   }
+
+
 `;
 
 const BackgroundImage = styled.div`
@@ -54,6 +59,7 @@ const BackgroundImage = styled.div`
     bottom: 0;
     background-color: rgba(0, 0, 0, 0.4);
   }
+    
 `;
 
 
@@ -107,13 +113,18 @@ const VideoContainer = styled.div`
   top: 0;
   left: 0;
   z-index: 10;
-  
+    @media (max-width: 768px) {
+    height: 100%;
+  }
 `;
 
 const StyledVideo = styled.video`
   width: 100%;
   height: 100%;
   object-fit: cover;
+    @media (max-width: 768px) {
+    height: 100%; 
+  }
 `;
 
 const NotEnoughModal = styled.div`
@@ -125,6 +136,14 @@ const NotEnoughModal = styled.div`
   padding: 20px;
   border-radius: 10px;
   z-index: 20;
+ width: 80%; /* Ancho ajustable para pantallas más pequeñas */
+  max-width: 400px; /* Ancho máximo para mantener una buena apariencia en pantallas grandes */
+
+  @media (max-width: 768px) {
+    width: 90%; /* Ancho mayor en pantallas pequeñas */
+    padding: 15px; /* Padding reducido en pantallas pequeñas */
+  }
+
 `;
 
 const NotEnoughModalBtn = styled.button`
@@ -135,6 +154,11 @@ const NotEnoughModalBtn = styled.button`
   border-radius: 5px;
   cursor: pointer;
   margin-top: 10px;
+
+    @media (max-width: 768px) {
+    padding: 8px 16px; /* Padding reducido en pantallas pequeñas */
+  }
+
 `;
 
 

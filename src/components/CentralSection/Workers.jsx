@@ -11,6 +11,9 @@ const Laburantes = styled.section`
   h2 {
     margin-top: 0;
   }
+      @media (max-width: 768px) {
+    display: none; /* Oculta el componente en pantallas pequeñas */
+  }
 `;
 
 const LaburantesHeader = styled.div`

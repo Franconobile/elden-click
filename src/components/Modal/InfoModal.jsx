@@ -65,10 +65,6 @@ const InfoModal = ({ isOpen, onClose }) => {
         </p>
         <p>There are still characters,  items, and possibly a system for upgrades and more items in the shop that need to be added.</p>
         <p>This project started as a future original gacha minigame with characters drawn by me, but I canceled it due to a lack of time and dedication. Now, I've resumed it by turning it into an Elden Ring gacha clicker.</p>
-        <h3>Why only Elden Ring and not all FromSoft games?</h3>
-        <p>I love Elden Ring! But also, I don't have time to dedicate to this project, given the overwhelming amount of content that could be added. However, the idea isn't completely off the table.</p>
-        <h3>Will there be more updates?</h3>
-        <p>It's possible that I won't enthusiastically update this project :( because it started as a study project for the web development bootcamp course I'm taking. I'll provide minor updates, but I can't promise much since I'd rather focus on other projects and my art/commissions for now. Besides, I'm not a good programmer, and this project made my brain bleed. If you know about coding and check the source code, you'll notice it's a mess! lmao</p>
         <h3>How to play?</h3>
         <p>Totally inspired by the game Cookie Clicker (all credits to its creators), it's simple—click on the rune to get runes! You can buy miners in the shop, they will automatically grind runes (+1), with a maximum of 25 miners.</p>
         <p>Price for wishing: 500 runes.</p>
@@ -76,9 +72,14 @@ const InfoModal = ({ isOpen, onClose }) => {
         <p>5-star character: 2% </p>
         <p>4-star character: 4.7% </p>
         <p>3-star character: 100%</p>
-        <p>Once you've reached 50 rolls, a 5-star character is guaranteed at 100%, and the count will reset.
-
-Have fun clicking, and good luck!"</p>
+        <p>Once you've reached 50 rolls, a 5-star character is guaranteed at 100%, and the count will reset. 
+        <h3>Why only Elden Ring and not all FromSoft games?</h3>
+        <p>I love Elden Ring! But also, I don't have time to dedicate to this project, given the overwhelming amount of content that could be added. However, the idea isn't completely off the table.</p>
+        <h3>Will there be more updates?</h3>
+        <p>It's possible that I won't enthusiastically update this project :( because it started as a study project for the web development bootcamp course I'm taking. I'll provide minor updates, but I can't promise much since I'd rather focus on other projects and my art/commissions for now. Besides, I'm not a good programmer, and this project made my brain bleed. If you know about coding and check the source code, you'll notice it's a mess! lmao</p>
+        <h3>Why using default pics for the chrs? Will you change it?</h3>
+        <p>OFC I will, I've put in-game pics and official concept art from the game as placeholder at least for now. I’m aware that some images are even in poor resolution. I would love to use fan art for the important characters! At the moment, I haven’t done this because I’d like to get permission from the artists if that's okay. If you want your artwork to appear here, feel free to send me a DM on Twitter. In a future update, I plan to implement a gallery system for the characters and more</p>
+Have fun clicking, and good luck! ૮ ˶ᵔ ᵕ ᵔ˶ ა</p>
         <CloseButton onClick={onClose}>Got it</CloseButton>
       </InfoContent>
     </InfoOverlay>
