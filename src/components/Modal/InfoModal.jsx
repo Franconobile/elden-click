@@ -63,7 +63,7 @@ const InfoModal = ({ isOpen, onClose }) => {
         <p>
         This site doesn't collect any information or data; it simply saves your progress in your localStorage. If you want to start from scratch, you can do so from the options.
         </p>
-        <p>There are still characters, items, and possibly a system for upgrades and more items in the shop that need to be added.</p>
+        <p>There are still characters,  items, and possibly a system for upgrades and more items in the shop that need to be added.</p>
         <p>This project started as a future original gacha minigame with characters drawn by me, but I canceled it due to a lack of time and dedication. Now, I've resumed it by turning it into an Elden Ring gacha clicker.</p>
         <h3>Why only Elden Ring and not all FromSoft games?</h3>
         <p>I love Elden Ring! But also, I don't have time to dedicate to this project, given the overwhelming amount of content that could be added. However, the idea isn't completely off the table.</p>
