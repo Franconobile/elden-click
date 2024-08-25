@@ -45,9 +45,8 @@ function App() {
 
   //Sistema de PITY
 
-  const [ setPityCounter] = useState(0);
-  const [ setPullHistory] = useState([]);
-
+  const [pityCounter, setPityCounter] = useState(0);
+  const [pullHistory, setPullHistory] = useState([]);
 
 
   // Inicializa el estado con el valor de localStorage o con 0 si no existe
@@ -82,7 +81,7 @@ function App() {
   }, [clickCount]);
 
   const handleClick = () => {
-    setClickCount(clickCount + 1);
+    setClickCount(clickCount + 100);
   };
 
   // Guardar workers en el localstorage
