@@ -4,6 +4,8 @@ import rune from '../../assets/rune.png';
 import audioClick from '../../assets/sfx/click.ogg';
 
 const RuneButton = styled.div`
+ -webkit-tap-highlight-color: transparent; /* Evita el resaltado en dispositivos móviles */
+  outline: none; 
   position: relative;
   height: auto;
   width: 100%;
