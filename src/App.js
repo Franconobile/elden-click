@@ -12,9 +12,6 @@ import ShopModal from './components/Modal/ShopModal';
 import Inventory from './components/Modal/InventoryModal';
 import InfoModal from './components/Modal/InfoModal';
 
-// JSON
-
-import characters from './data/characters.json';
 
 
 
@@ -48,8 +45,8 @@ function App() {
 
   //Sistema de PITY
 
-  const [pityCounter, setPityCounter] = useState(0);
-  const [pullHistory, setPullHistory] = useState([]);
+  const [ setPityCounter] = useState(0);
+  const [ setPullHistory] = useState([]);
 
 
 

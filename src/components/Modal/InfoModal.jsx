@@ -58,7 +58,7 @@ const InfoModal = ({ isOpen, onClose }) => {
         <InfoHeader>
             <h3>Elden clicK</h3>
         </InfoHeader>
-        <p>This is a release version, which means you might encounter bugs. "I HIGHLY RECOMMEND use this website on a desktop mode. I'll make it responsive in a future update; for now I'm feeling lazy! Also, you may or may not agree with the rating I've given to some of the characters you can obtain. If you have any suggestions, feel free to send me a DM on my <a href="https://x.com/notsakku" target='_blank'>Twitter</a>.
+        <p>This is a release version, which means you might encounter bugs. "I HIGHLY RECOMMEND use this website on a desktop mode. I'll make it responsive in a future update; for now I'm feeling lazy! Also, you may or may not agree with the rating I've given to some of the characters you can obtain. If you have any suggestions, feel free to send me a DM on my <a href="https://x.com/notsakku" target="_blank" rel="noopener noreferrer">Twitter</a>.
         </p>
         <p>
         This site doesn't collect any information or data; it simply saves your progress in your localStorage. If you want to start from scratch, you can do so from the options.
