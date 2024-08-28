@@ -789,7 +789,7 @@
         "type": "character",
         "rarity": 5,
         "image": "/chrs/promisedconsort.webp",
-        "desc": "Flashing, lights... Seizures..."
+        "desc": "A thousand year voyage guided by seizures"
       },
       {
         "id": 100,
@@ -822,5 +822,253 @@
         "rarity": 10,
         "image": "/chrs/ranni.webp",
         "desc": "My dear consort, eternal."
+      },
+      {
+        "id": 104,
+        "name": "Lamprey",
+        "type": "character",
+        "rarity": 3,
+        "image": "/chrs/lamprey.webp",
+        "desc": "I don't want to make a joke about this thing."
+      },
+      {
+        "id": 105,
+        "name": "Teardrop Scarab",
+        "type": "character",
+        "rarity": 3,
+        "image": "/chrs/teardropscarab.webp",
+        "desc": "THEY SEE ME ROLLIN' (+1500 runes gift)"
+      },
+      {
+        "id": 106,
+        "name": "Lone Wolf",
+        "type": "character",
+        "rarity": 3,
+        "image": "/chrs/lonewolf.webp",
+        "desc": "Howling through the pain"
+      },
+      {
+        "id": 107,
+        "name": "Exile Soldier",
+        "type": "character",
+        "rarity": 3,
+        "image": "/chrs/exilesoldier.webp",
+        "desc": "*Alarm horn sound effect*"
+      },
+      {
+        "id": 108,
+        "name": "Miner",
+        "type": "character",
+        "rarity": 3,
+        "image": "/chrs/miner.webp",
+        "desc": "They're not paying me very well for this"
+      },
+      {
+        "id": 109,
+        "name": "Kaiden Sellsword",
+        "type": "character",
+        "rarity": 3,
+        "image": "/chrs/kaiden.webp",
+        "desc": "Skyrim BELONGS TO THE NORDS"
+      },
+      {
+        "id": 110,
+        "name": "Alabaster Lord",
+        "type": "character",
+        "rarity": 3,
+        "image": "/chrs/alabaster.webp",
+        "desc": "Law of gravity knight?"
+      },
+      {
+        "id": 110,
+        "name": "Misbegotten",
+        "type": "character",
+        "rarity": 3,
+        "image": "/chrs/misbegotten.webp",
+        "desc": "Hewg is the ONLY good one."
+      },
+      {
+        "id": 111,
+        "name": "Noble Sorcerer",
+        "type": "character",
+        "rarity": 3,
+        "image": "/chrs/noble.webp",
+        "desc": "We are trolls and cowards"
+      },
+      {
+        "id": 112,
+        "name": "School of Graven Mages",
+        "type": "character",
+        "rarity": 3,
+        "image": "/chrs/magesball.webp",
+        "desc": "Sellen is ballin'"
+      },
+      {
+        "id": 113,
+        "name": "Chanting Winged Dame",
+        "type": "character",
+        "rarity": 3,
+        "image": "/chrs/singingbat.webp",
+        "desc": " O, locus ille, beatus quondam, nunc deminuit"
+      },
+      {
+        "id": 114,
+        "name": "Marionette Soldier",
+        "type": "character",
+        "rarity": 3,
+        "image": "/chrs/marionette.webp",
+        "desc": "You spin me right 'round baby right 'round"
+      },
+      {
+        "id": 115,
+        "name": "Glintstone Sorcerer",
+        "type": "character",
+        "rarity": 3,
+        "image": "/chrs/glintstonesorcerer.webp",
+        "desc": "Beep beep beep beep beep"
+      },
+      {
+        "id": 116,
+        "name": "Clayman",
+        "type": "character",
+        "rarity": 3,
+        "image": "/chrs/clayman.webp",
+        "desc": "Tough guy"
+      },
+      {
+        "id": 117,
+        "name": "Silver Tear",
+        "type": "character",
+        "rarity": 3,
+        "image": "/chrs/silvertear.webp",
+        "desc": "Do you play slime rancher?"
+      },
+      {
+        "id": 118,
+        "name": "Vulgar Militiamen",
+        "type": "character",
+        "rarity": 3,
+        "image": "/chrs/militiamen.webp",
+        "desc": "Angry garden gnomes"
+      },
+      {
+        "id": 119,
+        "name": "Giant Ant",
+        "type": "character",
+        "rarity": 3,
+        "image": "/chrs/ant.webp",
+        "desc": "Gyatt"
+      },
+      {
+        "id": 120,
+        "name": "Nox Swordstress",
+        "type": "character",
+        "rarity": 3,
+        "image": "/chrs/nox.webp",
+        "desc": "Hot armor set"
+      },
+      {
+        "id": 121,
+        "name": "Basilisk",
+        "type": "character",
+        "rarity": 3,
+        "image": "/chrs/basilisk.webp",
+        "desc": "Ah sh8 here we go again"
+      },
+      {
+        "id": 122,
+        "name": "Celebrants",
+        "type": "character",
+        "rarity": 3,
+        "image": "/chrs/celebrants.webp",
+        "desc": "Un forastero!"
+      },
+      {
+        "id": 123,
+        "name": "Revenant",
+        "type": "character",
+        "rarity": 3,
+        "image": "/chrs/revenant.webp",
+        "desc": "Fuck this guyFuck this guyFuck this guyFuck this guy"
+      },
+      {
+        "id": 124,
+        "name": "Perfumer",
+        "type": "character",
+        "rarity": 3,
+        "image": "/chrs/perfumer.webp",
+        "desc": "I promise wou'll smell good"
+      },
+      {
+        "id": 125,
+        "name": "Grafted Scion",
+        "type": "character",
+        "rarity": 3,
+        "image": "/chrs/scion.webp",
+        "desc": "https://www.youtube.com/watch?v=KdlzIuRpPKg"
+      },
+      {
+        "id": 126,
+        "name": "Abductor Virgin",
+        "type": "character",
+        "rarity": 3,
+        "image": "/chrs/ironmaiden.webp",
+        "desc": "Retrospection required ahead"
+      },
+      {
+        "id": 127,
+        "name": "Serpent Snail",
+        "type": "character",
+        "rarity": 3,
+        "image": "/chrs/snail.webp",
+        "desc": ":3"
+      },
+      {
+        "id": 128,
+        "name": "Roundtable Knight Vyke",
+        "type": "character",
+        "rarity": 5,
+        "image": "/chrs/vyke.webp",
+        "desc": "Yes... I am... the ELDEN RING"
+      },
+      {
+        "id": 129,
+        "name": "Astel, Naturalborn of the Void",
+        "type": "character",
+        "rarity": 4,
+        "image": "/chrs/astel.webp",
+        "desc": "You didn't know skulls had noses"
+      },
+      {
+        "id": 130,
+        "name": "Sir Gideon Ofnir, The All-Knowing",
+        "type": "character",
+        "rarity": 4,
+        "image": "/chrs/gideon.webp",
+        "desc": "He was watching the tarnished twitch stream this whole time"
+      },
+      {
+        "id": 131,
+        "name": "Fia's Champions",
+        "type": "character",
+        "rarity": 4,
+        "image": "/chrs/fiachampions.webp",
+        "desc": "Fia's simps"
+      },
+      {
+        "id": 132,
+        "name": "Mimic Tear",
+        "type": "character",
+        "rarity": 5,
+        "image": "/chrs/mimictear.webp",
+        "desc": "I'm You, But Stronger"
+      },
+      {
+        "id": 133,
+        "name": "Elemer of the Briar",
+        "type": "character",
+        "rarity": 4,
+        "image": "/chrs/elemer.webp",
+        "desc": "Luke, I am your Father"
       }
   ]

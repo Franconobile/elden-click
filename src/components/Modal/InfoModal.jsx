@@ -78,7 +78,7 @@ const InfoModal = ({ isOpen, onClose }) => {
         <h3>Will there be more updates?</h3>
         <p>It's possible that I won't enthusiastically update this project :( because it started as a study project for the web development bootcamp course I'm taking. I'll provide minor updates, but I can't promise much since I'd rather focus on other projects and my art/commissions for now. Besides, I'm not a good programmer, and this project made my brain bleed. If you know about coding and check the source code, you'll notice it's a mess! lmao</p>
         <h3>Why using default pics for the chrs? Will you change it?</h3>
-        <p>OFC I will, I've put in-game pics and official concept art from the game as placeholder at least for now. I’m aware that some images are even in poor resolution. I would love to use fan art for the important characters! At the moment, I haven’t done this because I’d like to get permission from the artists if that's okay. If you want your artwork to appear here, feel free to send me a DM on Twitter. In a future update, I plan to implement a gallery system for the characters and more</p>
+        <p>OFC I will, I've put in-game screenshots and official concept art from the game as placeholder at least for now. I’m aware that some images are even in poor resolution. I would love to use fan art for the important characters! At the moment, I haven’t done this because I’d like to get permission from the artists if that's okay. If you want your artwork to appear here, feel free to send me a DM on Twitter. In a future update, I plan to implement a gallery system for the characters and more</p>
 Have fun clicking, and good luck! ૮ ˶ᵔ ᵕ ᵔ˶ ა</p>
         <CloseButton onClick={onClose}>Got it</CloseButton>
       </InfoContent>

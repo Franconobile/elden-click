@@ -165,7 +165,7 @@ const NotEnoughModalBtn = styled.button`
 
 // CONST JSX
 
-const MainSection = ({ setClickCount, workersCount, newWorkerBought, isWishing, setIsWishing, addToInventory , setIsWishInProgress, pityCounter, setPityCounter, setPullHistory }) => {
+const MainSection = ({clickCount, setClickCount, workersCount, newWorkerBought, isWishing, setIsWishing, addToInventory , setIsWishInProgress, pityCounter, setPityCounter, setPullHistory }) => {
   const [showModal, setShowModal] = useState(false);
   const [particles, setParticles] = useState([]);
   const [pulledCharacter, setPulledCharacter] = useState(null);
@@ -192,7 +192,9 @@ const MainSection = ({ setClickCount, workersCount, newWorkerBought, isWishing, 
         addToInventory(character);
         if (character.rarity === 5) {
           setPityCounter(0);
-        }
+        } else if (character.id === 105) {
+          setClickCount(clickCount + 1500);
+        };
       };
     } else if (isWishing === 'not-enough-runes') {
       setShowNotEnoughRunesModal(true);

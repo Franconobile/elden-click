@@ -1,5 +1,7 @@
 
-## Project is made in react
+## This project was made in react JS 
+
+## You can check the deployed project here: https://eldenclick.netlify.app
 
 This web app is purely fan-made. The purpose of this silly game is for fun and to study programming, with no intention of making money. I do not own any of the assets, characters, names, or anything mentioned here. All rights belong to FromSoftware and Bandai.
 
