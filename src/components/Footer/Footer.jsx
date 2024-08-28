@@ -75,9 +75,20 @@ const MultiplierButtons = styled.div`
   gap: 10px;
 `;
 
+const Ver = styled.div`
+  font-family: Arial, Helvetica, sans-serif;
+  position: absolute;
+  bottom: 0;
+  font-size: 12px;
+  right: 20px;
+  color: #686868;
+`;
+
+
 const FooterComponent = ({onClick, onOptionsClick, onShopClick, onInvClick, onWishClick, isWishInProgress }) => {
 
   return (
+    <>
     <Footer>
       <InventorySection>
         <Button onClick={onInvClick}><img src={InventoryIco} alt="" srcset="" /></Button>
@@ -93,6 +104,10 @@ const FooterComponent = ({onClick, onOptionsClick, onShopClick, onInvClick, onWi
         </MultiplierButtons>
       </Clicker>
     </Footer>
+    <Ver>
+    <p>v0.01</p>
+    </Ver>
+    </>
   );
 };
 
